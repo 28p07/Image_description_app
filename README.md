@@ -44,7 +44,9 @@ Before running the app, ensure you have the following installed:
 4. Set up your environment (optional but recommended):
   
 Start the Flask server:
-- python app.py
+  ```Bash
+    python app.py
+  ```
 - The application will be running locally at http://127.0.0.1:5000/.
 
 ## App Usage
@@ -54,6 +56,7 @@ Start the Flask server:
 
 
 File Structure
+```
 /image-description-app
 │
 ├── app.py                  # Flask application backend
@@ -63,30 +66,26 @@ File Structure
 └── /static                 # Static files (CSS, JS)
     └── /css
     └── /js
-Dependencies
-The app requires the following Python libraries:
+```
 
-Flask
-TensorFlow
-Pillow (PIL)
-TensorFlow Hub
-NumPy
+## Dependencies
+#### The app requires the following Python libraries:
+- Flask
+- TensorFlow
+- Pillow (PIL)
+- TensorFlow Hub
+- NumPy
+
 To install all dependencies, use the following command:
-pip install -r requirements.txt
-The requirements.txt file should look like this:
-Flask
-tensorflow
-tensorflow-hub
-Pillow
-Troubleshooting
-Error: No file uploaded
-Ensure the file is correctly selected before submitting the form.
+- pip install -r requirements.txt
 
-Error: Failed to process the image
-Check if the image is in a valid format (JPEG, PNG, etc.) and has dimensions that are compatible with the model (299x299 pixels).
+### Error: Failed to process the image
 
-Model Prediction Error
-If there is an issue with TensorFlow or the model, ensure that your environment has the required dependencies and TensorFlow is properly installed.
+-Check if the image is in a valid format (JPEG, PNG, etc.) and has dimensions that are compatible with the model (299x299 pixels).
+
+### Model Prediction Error
+
+-If there is an issue with TensorFlow or the model, ensure that your environment has the required dependencies and TensorFlow is properly installed.
 
 
 ### Instructions for Running the App
@@ -95,8 +94,6 @@ If there is an issue with TensorFlow or the model, ensure that your environment 
 3. Run the Flask app using `python app.py`.
 4. Open a web browser and go to `http://127.0.0.1:5000/`.
 5. Upload an image to get a description.
-
-Let me know if you need any changes!
 
 
 
