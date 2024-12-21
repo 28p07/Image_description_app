@@ -44,13 +44,13 @@ Before running the app, ensure you have the following installed:
 4. Set up your environment (optional but recommended):
   
 Start the Flask server:
-python app.py
-The application will be running locally at http://127.0.0.1:5000/.
+- python app.py
+- The application will be running locally at http://127.0.0.1:5000/.
 
-App Usage
-Visit http://127.0.0.1:5000/ in your browser.
-Upload an image using the "Upload an Image" button.
-The app will process the image and display a description of the image (e.g., "A dog", "A cat").
+## App Usage
+- Visit http://127.0.0.1:5000/ in your browser.
+- Upload an image using the "Upload an Image" button.
+- The app will process the image and display a description of the image (e.g., "A dog", "A cat").
 
 
 File Structure
