@@ -21,7 +21,7 @@ This is a web application built with Flask and TensorFlow that allows users to u
 
 Before running the app, ensure you have the following installed:
 
-- Python 3.x
+- Python 3.10
 - pip (Python package manager)
 
 ## Installation Steps
@@ -29,7 +29,7 @@ Before running the app, ensure you have the following installed:
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/image-description-app.git
+    git clone https://github.com/28p07/Image_description_app
     cd image-description-app
     ```
 
@@ -42,15 +42,8 @@ Before running the app, ensure you have the following installed:
 3. Download the `imagenet-classes.txt` file that contains the class labels for InceptionV3. You can find it here: [imagenet-classes.txt](https://raw.githubusercontent.com/anishathalye/imagenet-simple-labels/master/imagenet-simple-labels.json). Save it in the project directory.
 
 4. Set up your environment (optional but recommended):
-   
-   Create a `.env` file with the following variables (if necessary):
-   ```bash
-   FLASK_APP=app.py
-   FLASK_ENV=development
+  
 Start the Flask server:
-
-bash
-Copy code
 python app.py
 The application will be running locally at http://127.0.0.1:5000/.
 
@@ -58,9 +51,9 @@ App Usage
 Visit http://127.0.0.1:5000/ in your browser.
 Upload an image using the "Upload an Image" button.
 The app will process the image and display a description of the image (e.g., "A dog", "A cat").
+
+
 File Structure
-bash
-Copy code
 /image-description-app
 │
 ├── app.py                  # Flask application backend
