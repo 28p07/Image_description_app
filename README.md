@@ -1,7 +1,5 @@
 # Image Description App
 
-# Image Description App
-
 This is a web application built with Flask and TensorFlow that allows users to upload an image and get a description of the image based on the predictions of a pre-trained InceptionV3 model from TensorFlow Hub.
 
 ## Features
