@@ -59,13 +59,13 @@ File Structure
 ```
 /image-description-app
 │
-├── app.py                  # Flask application backend
-├── index.html              # Frontend HTML for uploading images
-├── imagenet-classes.txt    # Text file with class labels for image classification
-├── requirements.txt        # Python dependencies
-└── /static                 # Static files (CSS, JS)
-    └── /css
-    └── /js
+├── app.py                 
+├──.gitignore
+├── README.md            
+├── imagenet-classes.txt    
+├── requirements.txt       
+└── /templates              
+    └── /index.html
 ```
 
 ## Dependencies
